@@ -3,7 +3,8 @@ import { Client } from "@notionhq/client";
 
 // Initializing a client
 const notion = new Client({
-  auth: process.env.NOTION_SECRET,
+  auth: "secret_5Hi5bv2fl3ErvRmMoJtCrYZsMykP1YGgIydidvWLExb",
+//process.env.NOTION_SECRET
 });
 
 export async function POST(request: Request) {

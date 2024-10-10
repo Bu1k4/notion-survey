@@ -2,9 +2,9 @@ import { NextResponse } from "next/server";
 import { Client } from "@notionhq/client";
 
 // Initializing a client
+//process.env.NOTION_SECRET
 const notion = new Client({
   auth: "secret_5Hi5bv2fl3ErvRmMoJtCrYZsMykP1YGgIydidvWLExb",
-//process.env.NOTION_SECRET
 });
 
 export async function POST(request: Request) {

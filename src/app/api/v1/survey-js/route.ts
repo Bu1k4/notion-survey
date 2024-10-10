@@ -68,16 +68,6 @@ export async function POST(request: Request) {
             {
               type: "text",
               text: {
-                content: body.question2,
-              },
-            },
-          ],
-        },
-         Question2: {
-          rich_text: [
-            {
-              type: "text",
-              text: {
                 content: body.question6,
               },
             },
@@ -89,16 +79,6 @@ export async function POST(request: Request) {
               type: "text",
               text: {
                 content: body.question7,
-              },
-            },
-          ],
-        },
-         Question2: {
-          rich_text: [
-            {
-              type: "text",
-              text: {
-                content: body.question2,
               },
             },
           ],
@@ -118,16 +98,6 @@ export async function POST(request: Request) {
             {
               type: "text",
               text: {
-                content: body.question2,
-              },
-            },
-          ],
-        },
-         Question2: {
-          rich_text: [
-            {
-              type: "text",
-              text: {
                 content: body.question9,
               },
             },
@@ -139,16 +109,6 @@ export async function POST(request: Request) {
               type: "text",
               text: {
                 content: body.question10,
-              },
-            },
-          ],
-        },
-         Question2: {
-          rich_text: [
-            {
-              type: "text",
-              text: {
-                content: body.question2,
               },
             },
           ],

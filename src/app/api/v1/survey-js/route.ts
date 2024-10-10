@@ -33,6 +33,296 @@ export async function POST(request: Request) {
             },
           ],
         },
+         Question3: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question3,
+              },
+            },
+          ],
+        },
+         Question4: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question4,
+              },
+            },
+          ],
+        },
+         Question5: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question5,
+              },
+            },
+          ],
+        },
+         Question6: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question2,
+              },
+            },
+          ],
+        },
+         Question2: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question6,
+              },
+            },
+          ],
+        },
+         Question7: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question7,
+              },
+            },
+          ],
+        },
+         Question2: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question2,
+              },
+            },
+          ],
+        },
+         Question8: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question8,
+              },
+            },
+          ],
+        },
+         Question9: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question2,
+              },
+            },
+          ],
+        },
+         Question2: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question9,
+              },
+            },
+          ],
+        },
+         Question10: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question10,
+              },
+            },
+          ],
+        },
+         Question2: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question2,
+              },
+            },
+          ],
+        },
+         Question11: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question11,
+              },
+            },
+          ],
+        },
+         Question12: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question12,
+              },
+            },
+          ],
+        },
+         Question13: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question13,
+              },
+            },
+          ],
+        },
+         Question14: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question14,
+              },
+            },
+          ],
+        },
+         Question15: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question15,
+              },
+            },
+          ],
+        },
+         Question16: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question16,
+              },
+            },
+          ],
+        },
+         Question17: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question17,
+              },
+            },
+          ],
+        },
+         Question18: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question18,
+              },
+            },
+          ],
+        },
+         Question19: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question19,
+              },
+            },
+          ],
+        },
+         Question20: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question20,
+              },
+            },
+          ],
+        },
+         Question21: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question21,
+              },
+            },
+          ],
+        },
+         Question22: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question22,
+              },
+            },
+          ],
+        },
+         Question23: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question23,
+              },
+            },
+          ],
+        },
+         Question24: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question24,
+              },
+            },
+          ],
+        },
+         Question25: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question25,
+              },
+            },
+          ],
+        },
+         Question26: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question26,
+              },
+            },
+          ],
+        },
+         Question27: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: body.question27,
+              },
+            },
+          ],
+        },
       },
     });
     console.log(response);

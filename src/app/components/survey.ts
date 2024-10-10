@@ -44,7 +44,10 @@ export const surveyJSON = {
         },
         {
           "type": "multipletext",
-          "name": "Какая ваша целевая аудитория?",
+          "name": "question3",
+          "title": {
+            "ru": "Какая ваша целевая аудитория?"
+          },
           "isRequired": true,
           "items": [
             {
@@ -93,7 +96,7 @@ export const surveyJSON = {
         },
         {
           "type": "checkbox",
-          "name": "question3",
+          "name": "question4",
           "title": {
             "ru": "Что является основными конкурентными преимуществами вашего бизнеса?"
           },
@@ -128,7 +131,7 @@ export const surveyJSON = {
       "elements": [
         {
           "type": "text",
-          "name": "question4",
+          "name": "question5",
           "title": {
             "ru": "Какие примеры сайтов вам нравятся?"
           },
@@ -139,7 +142,10 @@ export const surveyJSON = {
         },
         {
           "type": "text",
-          "name": "Какие элементы дизайна для вас важны?",
+          "name": "question6",
+          "title": {
+            "ru": "Какие элементы дизайна для вас важны?\n"
+          },
           "description": {
             "ru": "(Цвета, шрифты, изображения, минимализм, анимации.)"
           },
@@ -147,7 +153,7 @@ export const surveyJSON = {
         },
         {
           "type": "text",
-          "name": "question5",
+          "name": "question7",
           "title": {
             "ru": "Какой стиль фотографий и графики вам предпочтителен?"
           },
@@ -158,7 +164,7 @@ export const surveyJSON = {
         },
         {
           "type": "text",
-          "name": "question6",
+          "name": "question8",
           "title": {
             "ru": "Насколько важна анимация на сайте?"
           },
@@ -169,15 +175,21 @@ export const surveyJSON = {
         },
         {
           "type": "text",
-          "name": "Какую цветовую палитру вы предпочитаете для сайта?",
+          "name": "question9",
           "title": {
+            "ru": "Какую цветовую палитру вы предпочитаете для сайта?"
+          },
+          "description": {
             "ru": "(Можно указать конкретные цвета или общий тон: светлый, темный, яркий, нейтральный.)"
           },
           "isRequired": true
         },
         {
           "type": "text",
-          "name": "Какие шрифты вы хотите использовать?",
+          "name": "question10",
+          "title": {
+            "ru": "Какие шрифты вы хотите использовать?"
+          },
           "description": {
             "ru": "(Укажите предпочтения или оставьте выбор нам)"
           },
@@ -185,7 +197,7 @@ export const surveyJSON = {
         },
         {
           "type": "text",
-          "name": "question7",
+          "name": "question11",
           "title": {
             "ru": "Какие изображения вы планируете использовать на сайте?"
           },
@@ -196,7 +208,7 @@ export const surveyJSON = {
         },
         {
           "type": "text",
-          "name": "question8",
+          "name": "question12",
           "title": {
             "ru": "Планируете ли вы использовать видео-контент на сайте?"
           },
@@ -207,7 +219,7 @@ export const surveyJSON = {
         },
         {
           "type": "text",
-          "name": "question9",
+          "name": "question13",
           "title": {
             "ru": "Будет ли на сайте мультиязычная поддержка?"
           },
@@ -218,7 +230,7 @@ export const surveyJSON = {
         },
         {
           "type": "text",
-          "name": "question10",
+          "name": "question14",
           "title": {
             "ru": "Есть ли конкретные ограничения по дизайну или стилю, которых нужно придерживаться?"
           },
@@ -237,7 +249,7 @@ export const surveyJSON = {
       "elements": [
         {
           "type": "checkbox",
-          "name": "question11",
+          "name": "question15",
           "title": {
             "ru": "Какие разделы или страницы обязательно должны быть на сайте?"
           },
@@ -259,7 +271,7 @@ export const surveyJSON = {
         },
         {
           "type": "boolean",
-          "name": "question12",
+          "name": "question16",
           "title": {
             "ru": "Нужен ли раздел с кейсами?"
           },
@@ -268,7 +280,7 @@ export const surveyJSON = {
         },
         {
           "type": "checkbox",
-          "name": "question13",
+          "name": "question17",
           "title": {
             "ru": "Какие типы контента будут публиковаться на сайте?"
           },
@@ -287,7 +299,7 @@ export const surveyJSON = {
         },
         {
           "type": "boolean",
-          "name": "question14",
+          "name": "question18",
           "title": {
             "ru": "Нужно ли интегрировать формы для захвата лидов (подписка на рассылку, обратная связь)?"
           },
@@ -296,7 +308,7 @@ export const surveyJSON = {
         },
         {
           "type": "boolean",
-          "name": "question15",
+          "name": "question19",
           "title": {
             "ru": "Будут ли на сайте специальные предложения, акции или скидки?"
           },
@@ -305,7 +317,7 @@ export const surveyJSON = {
         },
         {
           "type": "boolean",
-          "name": "question16",
+          "name": "question20",
           "title": {
             "ru": "Планируется ли создание интерактивных карт или других интерактивных элементов?"
           },
@@ -314,7 +326,7 @@ export const surveyJSON = {
         },
         {
           "type": "checkbox",
-          "name": "question17",
+          "name": "question21",
           "title": {
             "ru": "Как вы видите навигацию по сайту?"
           },
@@ -340,7 +352,7 @@ export const surveyJSON = {
       "elements": [
         {
           "type": "checkbox",
-          "name": "question18",
+          "name": "question22",
           "title": {
             "ru": "Будет ли на сайте личный кабинет пользователя?"
           },
@@ -360,7 +372,7 @@ export const surveyJSON = {
         },
         {
           "type": "boolean",
-          "name": "question19",
+          "name": "question23",
           "title": {
             "ru": "Нужно ли интегрировать CRM-систему или другие внутренние системы?"
           },
@@ -372,7 +384,7 @@ export const surveyJSON = {
         },
         {
           "type": "checkbox",
-          "name": "question20",
+          "name": "question24",
           "title": {
             "ru": "Какие социальные сети вы планируете интегрировать с сайтом?"
           },
@@ -394,7 +406,7 @@ export const surveyJSON = {
         },
         {
           "type": "boolean",
-          "name": "question21",
+          "name": "question25",
           "title": {
             "ru": "Будет ли поддержка чат-ботов или других автоматизированных систем взаимодействия с пользователями?"
           },
@@ -403,7 +415,7 @@ export const surveyJSON = {
         },
         {
           "type": "boolean",
-          "name": "question22",
+          "name": "question26",
           "title": {
             "ru": "Планируется ли интеграция с внешними платформами для размещения объявлений или рекламы?"
           },
@@ -412,7 +424,7 @@ export const surveyJSON = {
         },
         {
           "type": "checkbox",
-          "name": "question23",
+          "name": "question27",
           "title": {
             "ru": "Какие инструменты аналитики и мониторинга вы хотите использовать?"
           },

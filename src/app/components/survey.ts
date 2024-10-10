@@ -2,6 +2,10 @@ export const surveyJSON = {
   "locale": "ru",
   "title": "Опросник для H2Valley",
   "description": "Сбор данных для формирования предложения по созданию сайта",
+  "logo": {
+    "ru": "https://api.surveyjs.io/private/Surveys/files?name=5eff38d4-1257-415a-bbb9-d915554b866f"
+  },
+  "logoWidth": "200",
   "logoPosition": "right",
   "pages": [
     {

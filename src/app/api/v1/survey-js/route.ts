@@ -17,7 +17,7 @@ export async function POST(request: Request) {
         Question1: {
           title: [
             {
-              type: "text",
+              type: "checkbox",
               text: {
                 content: body.question1,
               },
@@ -27,7 +27,7 @@ export async function POST(request: Request) {
         Question2: {
           rich_text: [
             {
-              type: "text",
+              type: "checkbox",
               text: {
                 content: body.question2,
               },
@@ -37,7 +37,7 @@ export async function POST(request: Request) {
          Question3: {
           rich_text: [
             {
-              type: "text",
+              type: "multipletext",
               text: {
                 content: body.question3,
               },
@@ -47,7 +47,7 @@ export async function POST(request: Request) {
          Question4: {
           rich_text: [
             {
-              type: "text",
+              type: "checkbox",
               text: {
                 content: body.question4,
               },
@@ -157,7 +157,7 @@ export async function POST(request: Request) {
          Question15: {
           rich_text: [
             {
-              type: "text",
+              type: "checkbox",
               text: {
                 content: body.question15,
               },
@@ -167,7 +167,7 @@ export async function POST(request: Request) {
          Question16: {
           rich_text: [
             {
-              type: "text",
+              type: "boolean",
               text: {
                 content: body.question16,
               },
@@ -177,7 +177,7 @@ export async function POST(request: Request) {
          Question17: {
           rich_text: [
             {
-              type: "text",
+              type: "checkbox",
               text: {
                 content: body.question17,
               },
@@ -187,7 +187,7 @@ export async function POST(request: Request) {
          Question18: {
           rich_text: [
             {
-              type: "text",
+              type: "boolean",
               text: {
                 content: body.question18,
               },
@@ -197,7 +197,7 @@ export async function POST(request: Request) {
          Question19: {
           rich_text: [
             {
-              type: "text",
+              type: "boolean",
               text: {
                 content: body.question19,
               },
@@ -207,7 +207,7 @@ export async function POST(request: Request) {
          Question20: {
           rich_text: [
             {
-              type: "text",
+              type: "boolean",
               text: {
                 content: body.question20,
               },
@@ -217,7 +217,7 @@ export async function POST(request: Request) {
          Question21: {
           rich_text: [
             {
-              type: "text",
+              type: "checkbox",
               text: {
                 content: body.question21,
               },
@@ -227,7 +227,7 @@ export async function POST(request: Request) {
          Question22: {
           rich_text: [
             {
-              type: "text",
+              type: "checkbox",
               text: {
                 content: body.question22,
               },
@@ -237,7 +237,7 @@ export async function POST(request: Request) {
          Question23: {
           rich_text: [
             {
-              type: "text",
+              type: "boolean",
               text: {
                 content: body.question23,
               },
@@ -247,7 +247,7 @@ export async function POST(request: Request) {
          Question24: {
           rich_text: [
             {
-              type: "text",
+              type: "checkbox",
               text: {
                 content: body.question24,
               },
@@ -257,7 +257,7 @@ export async function POST(request: Request) {
          Question25: {
           rich_text: [
             {
-              type: "text",
+              type: "boolean",
               text: {
                 content: body.question25,
               },
@@ -267,7 +267,7 @@ export async function POST(request: Request) {
          Question26: {
           rich_text: [
             {
-              type: "text",
+              type: "boolean",
               text: {
                 content: body.question26,
               },
@@ -277,7 +277,7 @@ export async function POST(request: Request) {
          Question27: {
           rich_text: [
             {
-              type: "text",
+              type: "checkbox",
               text: {
                 content: body.question27,
               },
